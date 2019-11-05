@@ -7,8 +7,8 @@ collection = db ["dist"]
 
 
 distancia = 340.89
-
-post = { "Distanncia": str(distancia)}
+pop = 32
+post = { "Distanncia": str(distancia), "prueba": str(pop) }
 
 collection.insert_one(post)
 
