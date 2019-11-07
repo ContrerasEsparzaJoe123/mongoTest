@@ -6,7 +6,7 @@ from pymongo import MongoClient
 
 cluster = MongoClient("mongodb+srv://joec:that1guy2@cluster0-tlgse.mongodb.net/test?retryWrites=true&w=majority")
 db = cluster["parcial2"]
-collection = db["dist"]
+collection = db["posts"]
 
 try:
     GPIO.setmode(GPIO.BOARD)
